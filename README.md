@@ -2,7 +2,7 @@
 
 A [Claude Code skill](https://docs.anthropic.com/en/docs/claude-code/skills) that queries the [DataForSEO API](https://dataforseo.com/) for SEO data — SERP results, keyword research, backlink analysis, domain analytics, content analysis, AI optimization, and more.
 
-Ported from DataForSEO's official [MCP server](https://github.com/dataforseo/mcp-server-typescript) (TypeScript) into a single Python script with zero external dependencies (stdlib only, Python 3.10+). Covers **9 modules** and **79 endpoints**.
+Ported from DataForSEO's official [MCP server](https://github.com/dataforseo/mcp-server-typescript) (TypeScript) into a single Python script with zero external dependencies (stdlib only, Python 3.10+). Covers **9 modules** and **80 endpoints**.
 
 ## Install
 
@@ -51,7 +51,7 @@ Claude will automatically invoke the skill, pick the right endpoint, and return 
 | Module | Endpoints | Description |
 |--------|-----------|-------------|
 | SERP | 7 | Google/Bing/Yahoo organic SERP results and YouTube search |
-| Keywords Data | 6 | Google Ads search volume, Google Trends, DataForSEO Trends |
+| Keywords Data | 7 | Google Ads search volume, Google Trends, DataForSEO Trends |
 | Backlinks | 20 | Backlink profiles, anchors, referring domains, competitors |
 | DataForSEO Labs | 21 | Keyword research, competitor analysis, domain rankings |
 | OnPage | 3 | Content parsing, instant page audits, Lighthouse scores |

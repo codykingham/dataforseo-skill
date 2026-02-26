@@ -18,6 +18,6 @@ if [ -d "$DEST_DIR" ]; then
   rm -rf "$DEST_DIR"
 fi
 
-cp -r "$SOURCE_DIR" "$DEST_DIR"
+rsync -a --exclude='__pycache__' "$SOURCE_DIR/" "$DEST_DIR/"
 
 echo "Installed dataforseo skill to $DEST_DIR"
